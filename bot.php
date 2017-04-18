@@ -44,31 +44,31 @@ if (!is_null($events['events'])) {
 			];
 			 $message3 = [
 				  "type": "imagemap",
-				  "baseUrl": "https://example.com/bot/images/rm001",
+				  "baseUrl": "fengbot/Imagemap",
 				  "altText": "this is an imagemap",
 				  "baseSize": {
 				      "height": 1040,
-				      "width": 1040
+				      "width": 545
 				  },
 				  "actions": [
 				      {
 					  "type": "uri",
-					  "linkUri": "https://example.com/",
+					  "linkUri": "https://www.google.co.th/search?q=red&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiO-e33663TAhVIVLwKHWEuCl4Q_AUIBigB&biw=1600&bih=821",
 					  "area": {
 					      "x": 0,
 					      "y": 0,
 					      "width": 520,
-					      "height": 1040
+					      "height": 545
 					  }
 				      },
 				      {
 					  "type": "message",
-					  "text": "hello",
+					  "text": "Good choice, you are now entering the Matrix.",
 					  "area": {
 					      "x": 520,
 					      "y": 0,
 					      "width": 520,
-					      "height": 1040
+					      "height": 545
 					  }
 				      }
 				  ]
